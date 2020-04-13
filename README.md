@@ -55,6 +55,7 @@ https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-
   alias gc="git checkout"
   alias gs="git status"
   alias gpr="git pull --rebase"
+  alias gh="<path_to_this_repository>/scripts/open_git_branch_in_github.sh
 ```
 
 ## Node Version Manager
