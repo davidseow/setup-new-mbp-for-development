@@ -22,18 +22,22 @@ Once this is done, install the following via Homebrew:
 ```bash
   # Core
   brew install \
+    iterm2 \
     git \
     make \
+    spectacle \
+
 
   # Cask
-  brew cask install \
-    visual-studio-code \
+  brew install --cask \
+    docker \
+    firefox \
     google-chrome \
     google-chrome-canary \
-    firefox \
-    iterm2 \
-    docker \
+    postman \
     slack \
+    sublime-text \
+    visual-studio-code
 ```
 
 ## Shell
