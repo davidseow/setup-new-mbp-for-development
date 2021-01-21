@@ -25,6 +25,7 @@ Once this is done, install the following via Homebrew:
     iterm2 \
     git \
     make \
+    nvm \
     spectacle \
 
 
