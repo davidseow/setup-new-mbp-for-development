@@ -1,9 +1,9 @@
 # Setup new Macbook Pro laptop for development
 
-## Install via App Store
+## Download and install
 
 - XCode
-- Magnet / [Spectacle](https://www.spectacleapp.com/)
+- [Rectangle](https://rectangleapp.com/)
 
 ## Homebrew
 
@@ -26,7 +26,6 @@ Once this is done, install the following via Homebrew:
     git \
     make \
     nvm \
-    spectacle \
 
 
   # Cask
