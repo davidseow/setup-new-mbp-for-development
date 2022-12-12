@@ -37,7 +37,8 @@ Once this is done, install the following via Homebrew:
     postman \
     slack \
     sublime-text \
-    visual-studio-code
+    visual-studio-code \
+    intellij-idea-ce
 ```
 
 ## Shell
