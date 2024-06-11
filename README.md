@@ -26,6 +26,7 @@ Once this is done, install the following via Homebrew:
     git \
     make \
     nvm \
+    pyenv
 
 
   # Cask
@@ -33,8 +34,8 @@ Once this is done, install the following via Homebrew:
     docker \
     firefox \
     google-chrome \
-    google-chrome-canary \
     postman \
+    pycharm-ce \
     slack \
     sublime-text \
     visual-studio-code \
