@@ -11,7 +11,7 @@ Install the _[Homebrew](https://brew.sh/)_ package manager. This will allow you 
 
 ```bash
   # install
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   # update
   brew update
@@ -28,6 +28,7 @@ Once this is done, install the following via Homebrew. Some of the installers wi
 ```bash
   # Core
   brew install \
+    docker \
     iterm2 \
     make \
     nvm \
@@ -40,12 +41,11 @@ Once this is done, install the following via Homebrew. Some of the installers wi
 
   # Cask
   brew install --cask \
-    docker \
-    postman \
+    bruno
     sublime-text \
     visual-studio-code \
-    intellij-idea-ce \
-    google-cloud-sdk
+    intellij-idea \
+    google-cli
 ```
 
 ## Shell
@@ -53,7 +53,7 @@ Once this is done, install the following via Homebrew. Some of the installers wi
 ### ohmyzsh
 
 ```bash
-  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### Automatically switch to project node version
@@ -73,7 +73,7 @@ https://github.com/nvm-sh/nvm#calling-nvm-use-automatically-in-a-directory-with-
 ## Node Version Manager
 
 ```bash
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 ```
 
 # Java
@@ -82,13 +82,17 @@ Stress-free way to manage JDK - https://sdkman.io/
 
 ## Git
 
-Configure Git
+**Configure Git**
 
 ```bash
-git config --global user.name "FIRST_NAME LAST_NAME" --global user.email "MY_NAME@email.com"
+git config --global user.name "FIRST_NAME LAST_NAME" 
+git config --global user.email "MY_NAME@email.com"
 ```
 
 If you need to configure git for a single repository, replace `--global` flag with `--local`
+
+
+**Git log in one line**
 
 Credit to https://ma.ttias.be/pretty-git-log-in-one-line/
 
