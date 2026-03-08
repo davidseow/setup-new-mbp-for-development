@@ -1,3 +1,5 @@
 {
-  "recommendations": ["ms-kubernetes-tools.vscode-kubernetes-tools"]
+  "recommendations": [
+    "github.copilot-chat"
+  ]
 }
