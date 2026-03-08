@@ -196,7 +196,7 @@ def main():
         print(f"\n⚠️  Found {len(all_findings)} potential PII match(es):\n")
         print_findings(all_findings)
         print(f"\nTotal findings: {len(all_findings)}")
-        sys.exit(1)
+        sys.exit(2)
     else:
         print("✓ No PII detected in changed files.")
         sys.exit(0)

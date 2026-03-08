@@ -3,7 +3,7 @@
     "PreToolUse": [
       {
         "type": "command",
-        "command": "./scripts/pii-scrubber.py",
+        "command": "./scripts/pii-checker.py",
         "timeout": 15
       }
     ]
