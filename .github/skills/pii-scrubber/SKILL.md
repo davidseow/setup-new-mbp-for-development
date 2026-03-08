@@ -1,6 +1,9 @@
 ---
 name: pii-scrubber
 description: Ensures that any code handling Personally Identifiable Information (PII) includes proper scrubbing and anonymisation techniques.
+user-invokable: false
+compatibility: python, typescript, kotlin, yaml, bash, .env
+
 ---
 
 1. run regex checks (included in pii-regex.md) to identify potential PII in the codebase.

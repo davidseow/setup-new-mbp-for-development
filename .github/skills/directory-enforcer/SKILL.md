@@ -1,6 +1,7 @@
 ---
 name: directory-enforcer
 description: Ensures new logic is placed in the correct architectural layer.
+user-invokable: false
 ---
 
 1. When user asks to create a utility function:
