@@ -1,0 +1,24 @@
+{
+  "patterns": [
+    {
+      "name": "Override Attempt",
+      "regex": "(?i)(ignore previous|ignore all previous|disregard|override instructions|new instructions|forget|updated instructions|from now on|new rule|override|cancel instructions?)"
+    },
+    {
+      "name": "System Prompt Leak",
+      "regex": "(?i)(system prompt|hidden instruction|secret message?|internal rule|original instruction|my instruction|your instruction|you are|you should|you must|system setting|backend|admin)"
+    },
+    {
+      "name": "Escape Sequence",
+      "regex": "^\\s*(-{3,}|={3,}|#{3,}|\\*{3,}|_{3,})\\s*$"
+    },
+    {
+      "name": "Command Injection",
+      "regex": "(?i)(eval\\(|exec\\(|shell\\(|subprocess|os\\.system|popen|spawn)"
+    },
+    {
+      "name": "Delimiter Breakout",
+      "regex": "(?i)(end of prompt|end of instruction|--break--|\\[START\\]|\\[END\\]|```.*```)"
+    }
+  ]
+}

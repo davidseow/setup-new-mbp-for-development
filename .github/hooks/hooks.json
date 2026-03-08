@@ -5,6 +5,11 @@
         "type": "command",
         "command": "./scripts/pii-checker.py",
         "timeout": 15
+      },
+      {
+        "type": "command",
+        "command": "./scripts/prompt-injection-checker.py",
+        "timeout": 15
       }
     ]
   }
